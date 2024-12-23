@@ -140,9 +140,17 @@ a {
 
 .photoDiv {
     display: flex;
+    /* max-width: 1040px;
+    width: 100%; */
     justify-content: center;
-    align-items: flex-start;
-    gap: 90px;
+}
+.photoBox {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1040px;
+    width: 100%;
+    
+
 }
 
 .box {
